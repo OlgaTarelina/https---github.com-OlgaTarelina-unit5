@@ -1,0 +1,7 @@
+let nam=[1,2,3,4,5,6,7]
+console.log(nam)
+console.log(nam.length)
+
+for (let i=0 ; i<nam.length; i++ ){
+console.log(nam[i])
+}

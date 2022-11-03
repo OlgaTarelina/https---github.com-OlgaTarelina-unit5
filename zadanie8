@@ -1,0 +1,11 @@
+let myMap = new Map();
+myMap.set('яблоко','фрукт');
+myMap.set('редис','овощ');
+myMap.set('арбуз','ягода');
+console.log(myMap.get('редис'))
+console.log(myMap.size)
+for (let name of myMap.keys())
+for (let nam of myMap.values())
+{
+    console.log(name+"-" +nam)
+    }

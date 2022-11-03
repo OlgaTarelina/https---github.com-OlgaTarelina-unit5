@@ -1,0 +1,10 @@
+let num = [1,1,2,1,1,1]
+let temp = true
+for (var i= 1; i< num.length; i++) {
+if(num[i-1] == num[i]) continue;
+else {
+temp = false;
+break;
+}
+}
+console.log(temp)

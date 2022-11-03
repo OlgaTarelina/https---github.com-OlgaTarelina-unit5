@@ -1,0 +1,12 @@
+let a = prompt("введите число");
+let b = a++;
+console.log(b);
+if (typeof b == isNaN(b)){
+  console.log("число")
+}
+if(typeof b == 'number' && !isNaN(b)){
+  console.log((b%2)?  "нечетное":"четное");
+}
+ else {
+     console.log("ошибка")   
+ }

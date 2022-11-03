@@ -1,0 +1,16 @@
+let arr = [2, 4, 5,88, 7, 65, 83,0, null];
+
+for (var i = 0; i < arr.length; i++)
+{
+  if ((arr[i] % 2) === 0)
+    
+  {
+  	console.log(arr[i]);
+  }
+}
+
+for (var i = 0; i < arr.length; i++){
+  if(i==0){
+    console.log('есть нуль')
+  }
+}
